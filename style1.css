@@ -1,0 +1,59 @@
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:grey;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo-image-twitter{
+
+    width: 20px;
+}
+
+.company-name{
+    font-weight: bold;
+    
+}
+.button1{
+  border: right;
+  color: rgb(243, 248, 239);
+  background-color:green;
+  padding: 11px 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 5px 3px;
+border-radius:12px;
+
+
+}
+ul {
+    margin: 20%;
+    padding: 15%;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+ .body-content{
+    background-color:grey;
+ }
