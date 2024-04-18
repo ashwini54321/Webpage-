@@ -1,4 +1,7 @@
-
+body{
+  margin: 0;
+  padding: 0;
+}
 .nav-container{
     display: flex;
     justify-content: space-between;
@@ -23,19 +26,31 @@
   border: right;
   color: rgb(243, 248, 239);
   background-color:green;
-  padding: 11px 10px;
+  padding: 11px 11px;
   text-align: center;
-  font-size: 16px;
+  font-size: 10px;
   margin: 5px 3px;
-border-radius:12px;
-
-
+border-radius:10px;
+}
+.button2{
+  border: right;
+  color: rgb(243, 248, 239);
+  background-color:green;
+  padding: 11px 11px;
+  text-align: center;
+  font-size: 10px;
+  margin: 5px 3px;
+  margin-top: auto;
+border-radius:10px;
 }
 ul {
-    margin: 20%;
+    margin: 10%;
     padding: 15%;
     overflow: hidden;
     background-color: #333;
+  }
+  ul :hover{
+    color: blue;
   }
   li {
     float: left;
@@ -57,3 +72,44 @@ ul {
  .body-content{
     background-color:grey;
  }
+ .twitter-pic{
+  display:flex;
+  float: right;
+  margin: 4%;
+  width:400px;
+  height: 280px;
+  display: block;
+  margin-left: auto;
+  margin-right: center;
+}
+.home-content{
+  display: flex;
+  width:1200px;
+  height:auto;
+  margin: auto;
+  margin-top: 0;
+  color: black;
+  position: relative;
+}
+.home-content .par{
+  position: absolute;
+  /* padding-left: 13px; */
+  /* padding-top:0px; */
+  letter-spacing: 1.2px;
+}
+ .home-content h1{
+  margin-bottom: 10 px;
+  font-size: 50px;
+  /* padding-top:0px;
+  padding-left:5px;
+  padding-bottom:0px;
+  margin-top: 12px; */
+  letter-spacing: 1.2px;
+ }
+
+ .home-content{
+  display: flex;
+ }
+
+
+ 
